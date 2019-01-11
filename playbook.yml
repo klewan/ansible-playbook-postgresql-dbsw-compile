@@ -1,0 +1,8 @@
+---
+- name: Compile PostgreSQL database server software
+  hosts: pg-servers
+  become: true
+  become_user: '{{ postgresql_user }}'
+  roles:
+    - { role: postgresql-dbsw-compile, tags: postgresql-dbsw-compile }
+

@@ -1,0 +1,15 @@
+
+- name: postgresql
+  src: https://github.com/klewan/ansible-role-postgresql.git
+  scm: git
+  #version: develop
+  #version: feature/init
+  #version: master
+
+- name: postgresql-dbsw-compile
+  src: https://github.com/klewan/ansible-role-postgresql-dbsw-compile.git
+  scm: git
+  #version: develop
+  #version: feature/init
+  #version: master
+
